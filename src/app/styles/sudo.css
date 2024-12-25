@@ -1,0 +1,36 @@
+.hvsnegt {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(10, 4, 171);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Sudo {
+  width: 250px;
+  margin: auto;
+  margin-top: 50px;
+}
+.Sudo button {
+  background-color: white;
+  border: 1px solid blue;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+.inc {
+  margin-left: 92px;
+}
+.inc:hover {
+  cursor: pointer;
+}
+.dec:hover {
+  cursor: pointer;
+}
+.numbers {
+  width: 170px;
+  height: 170px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+}
