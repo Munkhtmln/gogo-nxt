@@ -1,0 +1,30 @@
+.Calculator {
+  border: solid 2px black;
+  width: 450px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+}
+.Calculator p {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 350px;
+  height: 80px;
+  background-color: gray;
+  margin-top: 30px;
+}
+.buttoncontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.buttoncontainer button {
+  width: 120px;
+  height: 120px;
+  color: white;
+  background-color: black;
+}
